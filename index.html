@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -29,186 +30,194 @@ html { scroll-behavior: smooth; }
 body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; line-height: 1.6; }
 
 /* LAYOUT */
-.site-header { border-bottom: 1px solid var(--border); padding: 28px 0 24px; margin-bottom: 0; background: var(--bg); position: sticky; top: 0; z-index: 100; }
+.site-header { border-bottom: 1px solid var(–border); padding: 28px 0 24px; margin-bottom: 0; background: var(–bg); position: sticky; top: 0; z-index: 100; }
 .site-header-inner { max-width: 720px; margin: 0 auto; padding: 0 24px; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
-.site-title { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 700; color: var(--ink); letter-spacing: -0.3px; }
-.site-title em { color: var(--accent); font-style: normal; }
-.site-author { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--ink3); letter-spacing: 0.04em; }
+.site-title { font-family: ‘Fraunces’, serif; font-size: 22px; font-weight: 700; color: var(–ink); letter-spacing: -0.3px; }
+.site-title em { color: var(–accent); font-style: normal; }
+.site-author { font-family: ‘DM Mono’, monospace; font-size: 11px; color: var(–ink3); letter-spacing: 0.04em; }
 
 .main { max-width: 720px; margin: 0 auto; padding: 0 24px 100px; }
 
 /* HOME */
-.home-intro { padding: 52px 0 40px; border-bottom: 1px solid var(--border); margin-bottom: 44px; }
-.home-intro h1 { font-family: 'Fraunces', serif; font-size: clamp(32px, 5vw, 46px); font-weight: 700; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 20px; color: var(--ink); }
-.home-intro h1 em { color: var(--accent); font-style: italic; }
-.home-intro p { font-size: 17px; color: var(--ink2); line-height: 1.75; max-width: 560px; margin-bottom: 14px; font-weight: 300; }
+.home-intro { padding: 52px 0 40px; border-bottom: 1px solid var(–border); margin-bottom: 44px; }
+.home-intro h1 { font-family: ‘Fraunces’, serif; font-size: clamp(32px, 5vw, 46px); font-weight: 700; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 20px; color: var(–ink); }
+.home-intro h1 em { color: var(–accent); font-style: italic; }
+.home-intro p { font-size: 17px; color: var(–ink2); line-height: 1.75; max-width: 560px; margin-bottom: 14px; font-weight: 300; }
 .home-intro p:last-child { margin-bottom: 0; }
-.author-note { display: flex; align-items: center; gap: 12px; margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--border); }
-.author-initial { width: 40px; height: 40px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; font-family: 'Fraunces', serif; font-size: 16px; font-weight: 700; color: white; flex-shrink: 0; }
-.author-text { font-size: 13px; color: var(--ink3); line-height: 1.5; }
-.author-text strong { color: var(--ink2); font-weight: 500; }
+.author-note { display: flex; align-items: center; gap: 12px; margin-top: 28px; padding-top: 24px; border-top: 1px solid var(–border); }
+.author-initial { width: 40px; height: 40px; border-radius: 50%; background: var(–accent); display: flex; align-items: center; justify-content: center; font-family: ‘Fraunces’, serif; font-size: 16px; font-weight: 700; color: white; flex-shrink: 0; }
+.author-text { font-size: 13px; color: var(–ink3); line-height: 1.5; }
+.author-text strong { color: var(–ink2); font-weight: 500; }
 
 /* MODULE SECTIONS */
-.modules-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink3); margin-bottom: 16px; }
+.modules-label { font-family: ‘DM Mono’, monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(–ink3); margin-bottom: 16px; }
 .module-section { margin-bottom: 40px; }
-.module-section-title { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 500; color: var(--ink); margin-bottom: 6px; }
-.module-section-desc { font-size: 13px; color: var(--ink3); margin-bottom: 14px; font-weight: 300; }
+.module-section-title { font-family: ‘Fraunces’, serif; font-size: 18px; font-weight: 500; color: var(–ink); margin-bottom: 6px; }
+.module-section-desc { font-size: 13px; color: var(–ink3); margin-bottom: 14px; font-weight: 300; }
 .lesson-list { display: flex; flex-direction: column; gap: 6px; }
-.lesson-btn { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; text-align: left; transition: all 0.15s; }
-.lesson-btn:hover { background: var(--bg); border-color: var(--border2); transform: translateX(2px); }
-.lesson-btn.done { border-color: var(--accent); }
+.lesson-btn { background: var(–surface); border: 1px solid var(–border); border-radius: 10px; padding: 14px 18px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; text-align: left; transition: all 0.15s; }
+.lesson-btn:hover { background: var(–bg); border-color: var(–border2); transform: translateX(2px); }
+.lesson-btn.done { border-color: var(–accent); }
 .lesson-btn.done .lb-check { opacity: 1; }
 .lb-left { display: flex; align-items: center; gap: 12px; }
-.lb-num { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--ink3); min-width: 24px; }
-.lb-title { font-size: 14px; font-weight: 500; color: var(--ink); }
+.lb-num { font-family: ‘DM Mono’, monospace; font-size: 11px; color: var(–ink3); min-width: 24px; }
+.lb-title { font-size: 14px; font-weight: 500; color: var(–ink); }
 .lb-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
-.lb-check { font-size: 12px; color: var(--accent); opacity: 0; transition: opacity 0.2s; }
-.lb-arr { font-size: 14px; color: var(--border2); }
+.lb-check { font-size: 12px; color: var(–accent); opacity: 0; transition: opacity 0.2s; }
+.lb-arr { font-size: 14px; color: var(–border2); }
 
 /* LESSON VIEW */
 .lesson-view { display: none; padding-top: 36px; }
 .lesson-view.active { display: block; animation: fadeUp 0.2s ease; }
 @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
 
-.lesson-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
-.back-btn { display: flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--border); border-radius: 8px; padding: 8px 14px; font-family: 'DM Mono', monospace; font-size: 11px; cursor: pointer; color: var(--ink3); letter-spacing: 0.04em; transition: all 0.14s; }
-.back-btn:hover { border-color: var(--ink); color: var(--ink); }
+.lesson-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid var(–border); }
+.back-btn { display: flex; align-items: center; gap: 6px; background: none; border: 1px solid var(–border); border-radius: 8px; padding: 8px 14px; font-family: ‘DM Mono’, monospace; font-size: 11px; cursor: pointer; color: var(–ink3); letter-spacing: 0.04em; transition: all 0.14s; }
+.back-btn:hover { border-color: var(–ink); color: var(–ink); }
 .lesson-progress { display: flex; align-items: center; gap: 8px; }
-.prog-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border); transition: background 0.2s; }
-.prog-dot.active { background: var(--accent); }
-.prog-dot.done { background: var(--accent-lt); border: 2px solid var(--accent); }
+.prog-dot { width: 8px; height: 8px; border-radius: 50%; background: var(–border); transition: background 0.2s; }
+.prog-dot.active { background: var(–accent); }
+.prog-dot.done { background: var(–accent-lt); border: 2px solid var(–accent); }
 
-.lesson-meta { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink3); margin-bottom: 10px; }
-.lesson-title { font-family: 'Fraunces', serif; font-size: clamp(24px, 4vw, 34px); font-weight: 700; line-height: 1.2; letter-spacing: -0.3px; margin-bottom: 28px; color: var(--ink); }
+.lesson-meta { font-family: ‘DM Mono’, monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(–ink3); margin-bottom: 10px; }
+.lesson-title { font-family: ‘Fraunces’, serif; font-size: clamp(24px, 4vw, 34px); font-weight: 700; line-height: 1.2; letter-spacing: -0.3px; margin-bottom: 28px; color: var(–ink); }
 
 /* LESSON CONTENT */
-.lesson-body { font-size: 16px; font-weight: 300; line-height: 1.8; color: var(--ink2); margin-bottom: 32px; }
+.lesson-body { font-size: 16px; font-weight: 300; line-height: 1.8; color: var(–ink2); margin-bottom: 32px; }
 .lesson-body p { margin-bottom: 18px; }
 .lesson-body p:last-child { margin-bottom: 0; }
-.lesson-body strong { font-weight: 500; color: var(--ink); }
-.lesson-body em { font-style: italic; color: var(--ink); }
+.lesson-body strong { font-weight: 500; color: var(–ink); }
+.lesson-body em { font-style: italic; color: var(–ink); }
 
-.story-block { background: var(--surface); border-radius: 12px; padding: 24px 28px; margin: 24px 0; }
-.story-block .sb-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink3); margin-bottom: 10px; }
-.story-block p { font-size: 15px; color: var(--ink2); line-height: 1.75; margin-bottom: 12px; font-weight: 300; }
+.story-block { background: var(–surface); border-radius: 12px; padding: 24px 28px; margin: 24px 0; }
+.story-block .sb-label { font-family: ‘DM Mono’, monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(–ink3); margin-bottom: 10px; }
+.story-block p { font-size: 15px; color: var(–ink2); line-height: 1.75; margin-bottom: 12px; font-weight: 300; }
 .story-block p:last-child { margin-bottom: 0; }
 
-.highlight-box { background: var(--accent-lt); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 18px 22px; margin: 24px 0; }
-.highlight-box p { font-size: 15px; color: var(--ink); line-height: 1.7; margin-bottom: 8px; font-weight: 400; }
+.highlight-box { background: var(–accent-lt); border-left: 3px solid var(–accent); border-radius: 0 8px 8px 0; padding: 18px 22px; margin: 24px 0; }
+.highlight-box p { font-size: 15px; color: var(–ink); line-height: 1.7; margin-bottom: 8px; font-weight: 400; }
 .highlight-box p:last-child { margin-bottom: 0; }
 
-.amber-box { background: var(--amber-lt); border-left: 3px solid var(--amber); border-radius: 0 8px 8px 0; padding: 18px 22px; margin: 24px 0; }
-.amber-box .ab-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--amber); margin-bottom: 8px; }
-.amber-box p { font-size: 15px; color: var(--ink); line-height: 1.7; margin-bottom: 8px; font-weight: 300; }
+.amber-box { background: var(–amber-lt); border-left: 3px solid var(–amber); border-radius: 0 8px 8px 0; padding: 18px 22px; margin: 24px 0; }
+.amber-box .ab-label { font-family: ‘DM Mono’, monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(–amber); margin-bottom: 8px; }
+.amber-box p { font-size: 15px; color: var(–ink); line-height: 1.7; margin-bottom: 8px; font-weight: 300; }
 .amber-box p:last-child { margin-bottom: 0; }
 
 .term-list { display: flex; flex-direction: column; gap: 14px; margin: 20px 0; }
 .term-item { display: flex; gap: 14px; align-items: flex-start; }
-.term-pill { background: var(--surface2); border-radius: 6px; padding: 4px 10px; font-family: 'DM Mono', monospace; font-size: 11px; color: var(--ink2); white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
-.term-def { font-size: 14px; color: var(--ink2); line-height: 1.65; font-weight: 300; }
+.term-pill { background: var(–surface2); border-radius: 6px; padding: 4px 10px; font-family: ‘DM Mono’, monospace; font-size: 11px; color: var(–ink2); white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
+.term-def { font-size: 14px; color: var(–ink2); line-height: 1.65; font-weight: 300; }
 
-.section-heading { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 500; color: var(--ink); margin: 36px 0 14px; }
+.section-heading { font-family: ‘Fraunces’, serif; font-size: 20px; font-weight: 500; color: var(–ink); margin: 36px 0 14px; }
 
 /* READ TIME */
-.read-time { display: inline-flex; align-items: center; gap: 6px; font-family: 'DM Mono', monospace; font-size: 11px; color: var(--ink3); margin-bottom: 28px; }
-.read-time-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--border2); }
+.read-time { display: inline-flex; align-items: center; gap: 6px; font-family: ‘DM Mono’, monospace; font-size: 11px; color: var(–ink3); margin-bottom: 28px; }
+.read-time-dot { width: 4px; height: 4px; border-radius: 50%; background: var(–border2); }
 
 /* QUIZ */
-.quiz-container { border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-top: 36px; }
-.quiz-header { background: var(--ink); padding: 24px 28px; }
-.quiz-header-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 8px; }
-.quiz-q { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 400; color: white; line-height: 1.5; font-style: italic; }
-.quiz-opts { background: var(--surface); }
-.quiz-opt { padding: 16px 24px; border-bottom: 1px solid var(--border); cursor: pointer; display: flex; align-items: flex-start; gap: 14px; font-size: 14px; color: var(--ink2); font-weight: 300; transition: background 0.12s; }
+.quiz-container { border: 1px solid var(–border); border-radius: 14px; overflow: hidden; margin-top: 36px; }
+.quiz-header { background: var(–ink); padding: 24px 28px; }
+.quiz-header-label { font-family: ‘DM Mono’, monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 8px; }
+.quiz-q { font-family: ‘Fraunces’, serif; font-size: 18px; font-weight: 400; color: white; line-height: 1.5; font-style: italic; }
+.quiz-opts { background: var(–surface); }
+.quiz-opt { padding: 16px 24px; border-bottom: 1px solid var(–border); cursor: pointer; display: flex; align-items: flex-start; gap: 14px; font-size: 14px; color: var(–ink2); font-weight: 300; transition: background 0.12s; }
 .quiz-opt:last-child { border-bottom: none; }
-.quiz-opt:hover:not(.locked) { background: var(--bg); }
-.quiz-opt.correct { background: var(--correct-bg); }
-.quiz-opt.wrong { background: var(--wrong-bg); }
+.quiz-opt:hover:not(.locked) { background: var(–bg); }
+.quiz-opt.correct { background: var(–correct-bg); }
+.quiz-opt.wrong { background: var(–wrong-bg); }
 .quiz-opt.locked { cursor: default; }
-.opt-badge { width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid var(--border2); display: flex; align-items: center; justify-content: center; font-family: 'DM Mono', monospace; font-size: 10px; color: var(--ink3); flex-shrink: 0; margin-top: 1px; }
-.quiz-opt.correct .opt-badge { background: var(--correct); border-color: var(--correct); color: white; }
-.quiz-opt.wrong .opt-badge { background: var(--wrong); border-color: var(--wrong); color: white; }
-.quiz-exp { background: var(--bg); border-top: 1px solid var(--border); padding: 20px 28px; font-size: 14px; color: var(--ink2); line-height: 1.7; font-weight: 300; }
-.quiz-exp strong { font-weight: 500; color: var(--ink); }
-.quiz-counter { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--ink3); letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 28px; background: var(--surface); border-top: 1px solid var(--border); }
+.opt-badge { width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid var(–border2); display: flex; align-items: center; justify-content: center; font-family: ‘DM Mono’, monospace; font-size: 10px; color: var(–ink3); flex-shrink: 0; margin-top: 1px; }
+.quiz-opt.correct .opt-badge { background: var(–correct); border-color: var(–correct); color: white; }
+.quiz-opt.wrong .opt-badge { background: var(–wrong); border-color: var(–wrong); color: white; }
+.quiz-exp { background: var(–bg); border-top: 1px solid var(–border); padding: 20px 28px; font-size: 14px; color: var(–ink2); line-height: 1.7; font-weight: 300; }
+.quiz-exp strong { font-weight: 500; color: var(–ink); }
+.quiz-counter { font-family: ‘DM Mono’, monospace; font-size: 10px; color: var(–ink3); letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 28px; background: var(–surface); border-top: 1px solid var(–border); }
 
 /* SCORE */
-.score-screen { text-align: center; padding: 48px 28px; background: var(--surface); }
-.score-circle { width: 88px; height: 88px; border-radius: 50%; background: var(--bg); border: 3px solid var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; flex-direction: column; }
-.score-n { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 700; color: var(--accent); line-height: 1; }
-.score-d { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--ink3); margin-top: 2px; }
-.score-msg { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 500; color: var(--ink); margin-bottom: 8px; }
-.score-sub { font-size: 14px; color: var(--ink3); font-weight: 300; margin-bottom: 28px; }
+.score-screen { text-align: center; padding: 48px 28px; background: var(–surface); }
+.score-circle { width: 88px; height: 88px; border-radius: 50%; background: var(–bg); border: 3px solid var(–accent); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; flex-direction: column; }
+.score-n { font-family: ‘Fraunces’, serif; font-size: 28px; font-weight: 700; color: var(–accent); line-height: 1; }
+.score-d { font-family: ‘DM Mono’, monospace; font-size: 11px; color: var(–ink3); margin-top: 2px; }
+.score-msg { font-family: ‘Fraunces’, serif; font-size: 20px; font-weight: 500; color: var(–ink); margin-bottom: 8px; }
+.score-sub { font-size: 14px; color: var(–ink3); font-weight: 300; margin-bottom: 28px; }
 
 /* BUTTONS */
-.btn-primary { display: inline-flex; align-items: center; gap: 8px; padding: 13px 24px; background: var(--accent); border: none; border-radius: 10px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; color: white; cursor: pointer; transition: all 0.15s; }
+.btn-primary { display: inline-flex; align-items: center; gap: 8px; padding: 13px 24px; background: var(–accent); border: none; border-radius: 10px; font-family: ‘DM Sans’, sans-serif; font-size: 14px; font-weight: 500; color: white; cursor: pointer; transition: all 0.15s; }
 .btn-primary:hover { background: #155a3d; }
-.btn-ghost { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; background: none; border: 1.5px solid var(--border); border-radius: 10px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 400; color: var(--ink2); cursor: pointer; transition: all 0.15s; }
-.btn-ghost:hover { border-color: var(--ink); color: var(--ink); }
+.btn-ghost { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; background: none; border: 1.5px solid var(–border); border-radius: 10px; font-family: ‘DM Sans’, sans-serif; font-size: 14px; font-weight: 400; color: var(–ink2); cursor: pointer; transition: all 0.15s; }
+.btn-ghost:hover { border-color: var(–ink); color: var(–ink); }
 .btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 28px; }
 
 /* NEXT LESSON CARD */
-.next-lesson { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; transition: all 0.15s; margin-top: 16px; }
-.next-lesson:hover { background: var(--bg); border-color: var(--border2); }
-.nl-label { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink3); margin-bottom: 4px; }
-.nl-title { font-size: 15px; font-weight: 500; color: var(--ink); }
-.nl-arr { font-size: 20px; color: var(--border2); flex-shrink: 0; }
+.next-lesson { background: var(–surface); border: 1px solid var(–border); border-radius: 12px; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; transition: all 0.15s; margin-top: 16px; }
+.next-lesson:hover { background: var(–bg); border-color: var(–border2); }
+.nl-label { font-family: ‘DM Mono’, monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(–ink3); margin-bottom: 4px; }
+.nl-title { font-size: 15px; font-weight: 500; color: var(–ink); }
+.nl-arr { font-size: 20px; color: var(–border2); flex-shrink: 0; }
 
 /* RESPONSIVE */
 @media (max-width: 480px) {
-  .lesson-title { font-size: 26px; }
-  .story-block, .highlight-box, .amber-box { padding: 18px 20px; }
-  .quiz-opt { padding: 14px 18px; }
-  .quiz-header { padding: 20px 20px; }
+.lesson-title { font-size: 26px; }
+.story-block, .highlight-box, .amber-box { padding: 18px 20px; }
+.quiz-opt { padding: 14px 18px; }
+.quiz-header { padding: 20px 20px; }
 }
 </style>
+
 </head>
 <body>
 
 <header class="site-header">
   <div class="site-header-inner">
     <div class="site-title">Deal <em>Literacy</em></div>
-    <div class="site-author">by CLJ</div>
+    <div class="site-author">by CJ Jondonero</div>
   </div>
 </header>
 
 <main class="main">
 
   <!-- HOME -->
+
   <div id="home-view">
     <div class="home-intro">
-      <h1>The deals your clients talk about,<br><em>finally</em> explained.</h1>
-      <p>You work in real estate development. You hear words like "capital stack" and "waterfall" in meetings, on calls, in the decks you're helping build. And you nod — because that's the job.</p>
-      <p>But here's the thing: when you actually understand what those words mean, things change. You ask better questions. You write sharper copy. You earn a seat at a different kind of table.</p>
-      <p>This isn't a finance course. It's a fluency guide — ten short lessons that explain how real estate deals actually work, written the way a colleague would explain it over coffee. No formulas to memorize. No MBA required.</p>
+      <h1>Nobody explained<br>the money part.<br><em>Let me.</em></h1>
+      <p>You're in a meeting. Someone says "the capital stack is fully committed" or "we're targeting a 16% IRR" and the room nods like that means something. You nod too. You move on.</p>
+      <p>This is for you.</p>
+      <p>If you work in marketing, sales, creative, or communications for a real estate developer — hospitality, residential, mixed-use, luxury — you're closer to serious money than almost anyone in your field. But nobody sat you down and explained how it actually works. That's not your fault. It's just how this industry operates.</p>
+      <p>Ten lessons. No MBA required. No equations to memorise. Just plain explanations of the concepts that shape every project you work on — written the way a colleague who actually likes you would explain it over a long coffee. Read one on your lunch break. Come back tomorrow for another.</p>
+      <p>By the end, you won't be a finance person. But you'll understand what the finance people are saying — and that changes everything about how you show up.</p>
       <div class="author-note">
         <div class="author-initial">CJ</div>
-        <div class="author-text"><strong>CLJ</strong> — hospitality advisory and real estate capital markets. Built this because I wish someone had handed it to me earlier.</div>
+        <div class="author-text"><strong>CJ Jondonero</strong> — real estate advisory and capital markets. I came up through the creative and marketing side of this industry. I built this because nobody handed it to me, and I think that was a mistake.</div>
       </div>
     </div>
 
-    <div class="modules-label">Ten lessons across three themes</div>
+```
+<div class="modules-label">Ten lessons · start anywhere</div>
 
-    <div class="module-section">
-      <div class="module-section-title">Part 1 — How Deals Get Funded</div>
-      <div class="module-section-desc">Where the money comes from, who it belongs to, and why anyone takes the risk.</div>
-      <div class="lesson-list" id="list-0"></div>
-    </div>
+<div class="module-section">
+  <div class="module-section-title">Part 1 — Where Does the Money Come From?</div>
+  <div class="module-section-desc">The basics of how a development gets funded — and who's taking the risk.</div>
+  <div class="lesson-list" id="list-0"></div>
+</div>
 
-    <div class="module-section">
-      <div class="module-section-title">Part 2 — How the Money Gets Split</div>
-      <div class="module-section-desc">When a deal succeeds, who gets paid first — and how much.</div>
-      <div class="lesson-list" id="list-1"></div>
-    </div>
+<div class="module-section">
+  <div class="module-section-title">Part 2 — Who Gets Paid, and How Much?</div>
+  <div class="module-section-desc">When a deal makes money, this is how it gets divided up.</div>
+  <div class="lesson-list" id="list-1"></div>
+</div>
 
-    <div class="module-section">
-      <div class="module-section-title">Part 3 — What Makes a Deal Work</div>
-      <div class="module-section-desc">The numbers people actually argue about in the room.</div>
-      <div class="lesson-list" id="list-2"></div>
-    </div>
+<div class="module-section">
+  <div class="module-section-title">Part 3 — How Do You Know If It's a Good Deal?</div>
+  <div class="module-section-desc">The numbers that actually matter — and why people argue about them.</div>
+  <div class="lesson-list" id="list-2"></div>
+</div>
+```
+
   </div>
 
   <!-- LESSON VIEW -->
+
   <div id="lesson-view" class="lesson-view">
     <div class="lesson-nav">
       <button class="back-btn" onclick="goHome()">← All lessons</button>
@@ -229,20 +238,20 @@ const LESSONS = [
   // ── PART 1 ──────────────────────────────────────────────────────────────────
   {
     part: 0,
-    title: "Why Does a Hotel Cost So Much to Build?",
+    title: "Why Does a Development Project Cost So Much to Build?",
     read: "5 min read",
     body: `
-<p>Let's start somewhere obvious: a luxury hotel is absurdly expensive to build.</p>
-<p>We're talking $500,000 to over $1 million per room key — and that's before you add the spa, the restaurant, the rooftop bar, and the lobby that makes someone stop and take a photo when they walk in. A 150-room hotel in a primary market can easily cost $80–120 million to bring to life.</p>
-<p>So the first question any deal involves is simple: where does all that money come from?</p>
+<p>Let's start somewhere obvious: real estate development is absurdly expensive.</p>
+<p>A luxury hotel runs $500,000 to over $1 million per room to build. A high-end residential tower in a major market might cost $800 per square foot — or more — before you've furnished a single unit. A mixed-use project with retail, residences, and amenities can easily cross $100 million before it opens its doors.</p>
+<p>So the first question any development deal involves is simple: where does all that money come from?</p>
 
 <div class="section-heading">The answer is almost never "one place"</div>
-<p>Almost every real estate development deal is funded by a combination of sources — part borrowed, part invested. Think of it like buying a house: most people put in some of their own money (the down payment) and borrow the rest from a bank. Hotel development works the same way, just with a lot more zeros and a lot more parties involved.</p>
+<p>Almost every real estate development deal is funded by a combination of sources — part borrowed, part invested. Think of it like buying a house: most people put in some of their own money (the down payment) and borrow the rest from a bank. Development works the same way, just with a lot more zeros and a lot more parties involved.</p>
 
 <div class="story-block">
   <div class="sb-label">Picture this</div>
-  <p>Imagine a developer wants to build a 120-room boutique hotel in Miami's Wynwood neighborhood. Total cost: $75 million. She doesn't have $75 million sitting in a bank account — almost no one does. So she structures the deal:</p>
-  <p>She borrows $48 million from a bank (the senior loan). She raises $22.5 million from a group of wealthy investors who believe in the project. And she puts in $4.5 million of her own money.</p>
+  <p>Imagine a developer wants to build a 120-unit luxury residential tower in a growing urban neighbourhood. Total cost: $75 million. She doesn't have $75 million sitting in a bank account — almost no one does. So she structures the deal:</p>
+  <p>She borrows $48 million from a bank (the senior loan). She raises $22.5 million from a group of investors who believe in the project. And she puts in $4.5 million of her own money.</p>
   <p>$48M + $22.5M + $4.5M = $75M. Deal funded.</p>
 </div>
 
@@ -250,28 +259,28 @@ const LESSONS = [
 
 <div class="section-heading">Why does the order matter?</div>
 <p>Here's the part that makes the capital stack more than just a funding diagram. Each layer of money in the stack comes with different rules about who gets paid back first if things go wrong.</p>
-<p>The bank always gets paid back first. Always. If the hotel struggles and has to be sold at a loss, the bank gets their $48 million before anyone else sees a dollar. That's why banks are willing to lend at a lower interest rate — they have the most protection.</p>
+<p>The bank always gets paid back first. Always. If the project struggles and has to be sold at a loss, the bank gets their $48 million before anyone else sees a dollar. That's why banks are willing to lend at a lower interest rate — they have the most protection.</p>
 <p>The investors are taking more risk. If there's a shortfall, they might not get everything back. But because they're accepting that risk, they expect a much higher return if the deal succeeds.</p>
-<p>The developer — who put in the least money but is running the whole show — takes the most risk of all. She could lose her entire $4.5 million. But if the hotel performs well and sells for $110 million in five years? She stands to make far more than anyone else, proportionally speaking.</p>
+<p>The developer — who put in the least money but is running the whole show — takes the most risk of all. She could lose her entire $4.5 million. But if the building performs well and sells for $110 million? She stands to make far more than anyone else, proportionally speaking.</p>
 
 <div class="highlight-box">
-  <p><strong>The core principle of every real estate deal:</strong> more risk, more potential reward. Less risk, less potential reward. The capital stack is how that relationship gets organized and enforced.</p>
+  <p><strong>The core principle of every real estate deal:</strong> more risk, more potential reward. Less risk, less potential reward. The capital stack is how that relationship gets organised and enforced.</p>
 </div>
 
-<div class="section-heading">Why this matters for your work</div>
+<div class="section-heading">How this shows up in your work</div>
 <p>When a developer you're working with talks about "closing the financing" or "getting the capital in place," this is what they mean. The deal doesn't move forward until every layer of that stack is committed — the bank has agreed to lend, the investors have wired their money, and the developer has their equity in.</p>
-<p>When you're writing marketing materials for a development project, understanding the capital stack helps you understand the pressure the developer is under. They're not just building a hotel — they're managing a complex web of financial commitments, each with different expectations, timelines, and risk tolerances.</p>
-<p>That context makes you better at your job. It helps you understand why timelines slip, why certain decisions get made, and what "the deal working" actually means.</p>
+<p>When you're writing marketing materials for a development project, understanding the capital stack helps you understand the pressure the developer is under. They're not just building a building — they're managing a complex web of financial commitments, each with different expectations, timelines, and risk tolerances.</p>
+<p>That context makes you better at your job. It helps you understand why timelines shift, why certain decisions get made, and what "the deal working" actually means.</p>
 
 <div class="amber-box">
   <div class="ab-label">One thing to remember</div>
   <p>When someone says "the capital stack," they mean the full picture of where the money came from — debt (borrowed) and equity (invested) — and who gets priority if things go sideways.</p>
 </div>`,
     quiz: [
-      { q: "A developer builds a $60M hotel using $36M in bank debt and $24M from investors and their own money. What is the bank's percentage of the capital stack?", opts: ["A) 40%", "B) 50%", "C) 60%", "D) 75%"], correct: 2, exp: "$36M ÷ $60M = 60%. The bank provides 60% of total funding, which is why they have priority in repayment. The remaining 40% comes from equity investors and the developer." },
-      { q: "If a hotel has to be sold at a loss, who gets paid back first?", opts: ["A) The developer, because they ran the project", "B) The investors, because they put in the most money", "C) The bank, because they have the most protection", "D) Everyone gets paid proportionally"], correct: 2, exp: "The bank (senior lender) always gets paid first. This is the fundamental principle of the capital stack — priority of repayment. The developer, who takes the most risk, gets paid last." },
-      { q: "Why do investors in a hotel development accept more risk than the bank?", opts: ["A) They don't — banks take more risk", "B) Because they expect a higher return if the deal succeeds", "C) Because they're required to by law", "D) Because they have more information about the deal"], correct: 1, exp: "Investors sit below the bank in the capital stack — meaning they get paid after the bank in a loss scenario. They accept this lower priority (higher risk) in exchange for the potential to earn significantly higher returns if the hotel performs well." },
-      { q: "What does it mean when someone says a deal is 'waiting for the capital stack to close'?", opts: ["A) The hotel construction is nearly finished", "B) The marketing materials are being finalized", "C) All layers of financing — debt and equity — haven't been fully committed yet", "D) The developer is negotiating with contractors"], correct: 2, exp: "A deal 'closing' the capital stack means all sources of funding are committed: the bank has agreed to lend, investors have committed their equity, and the developer has their co-investment ready. Until all pieces are in place, the project can't break ground." }
+      { q: "A developer builds a $60M project using $36M in bank debt and $24M from investors and their own money. What is the bank's percentage of the capital stack?", opts: ["A) 40%", "B) 50%", "C) 60%", "D) 75%"], correct: 2, exp: "$36M ÷ $60M = 60%. The bank provides 60% of total funding, which is why they have priority in repayment. The remaining 40% comes from equity investors and the developer." },
+      { q: "If a development project has to be sold at a loss, who gets paid back first?", opts: ["A) The developer, because they ran the project", "B) The investors, because they put in the most money", "C) The bank, because they have the most protection", "D) Everyone gets paid proportionally"], correct: 2, exp: "The bank (senior lender) always gets paid first. This is the fundamental principle of the capital stack — priority of repayment. The developer, who takes the most risk, gets paid last." },
+      { q: "Why do equity investors in a development project accept more risk than the bank?", opts: ["A) They don't — banks take more risk", "B) Because they expect a higher return if the deal succeeds", "C) Because they're required to by law", "D) Because they have more information about the deal"], correct: 1, exp: "Investors sit below the bank in the capital stack — meaning they get paid after the bank in a loss scenario. They accept this lower priority (higher risk) in exchange for the potential to earn significantly higher returns if the project performs well." },
+      { q: "What does it mean when someone says a deal is 'waiting for the capital stack to close'?", opts: ["A) The construction is nearly finished", "B) The marketing materials are being finalized", "C) All layers of financing — debt and equity — haven't been fully committed yet", "D) The developer is negotiating with contractors"], correct: 2, exp: "A deal 'closing' the capital stack means all sources of funding are committed: the bank has agreed to lend, investors have committed their equity, and the developer has their co-investment ready. Until all pieces are in place, the project can't break ground." }
     ]
   },
 
@@ -281,11 +290,11 @@ const LESSONS = [
     read: "4 min read",
     body: `
 <p>Two words you'll hear constantly in any deal conversation: <strong>debt</strong> and <strong>equity</strong>. They sound simple. But the distinction between them shapes everything about how a deal is structured, who has power, and who makes money.</p>
-<p>Let's break it down in plain terms.</p>
+<p>Here's the distinction — and it matters more than the jargon suggests.</p>
 
 <div class="section-heading">Debt: borrowed money with a promise</div>
-<p>Debt is money you borrow with a legal commitment to pay it back — with interest, on a schedule, regardless of how the project performs. If the hotel opens and immediately struggles, you still owe the bank. Miss a payment, and the bank has the right to take the property.</p>
-<p>Debt is not flexible. That's actually the point. A bank lending $50 million to a hotel developer isn't in the hotel business — they want their money back, plus interest, and they want it predictably. They're not betting on the deal. They're financing it.</p>
+<p>Debt is money you borrow with a legal commitment to pay it back — with interest, on a schedule, regardless of how the project performs. If the project opens and immediately struggles, you still owe the bank. Miss a payment, and the bank has the right to take the property.</p>
+<p>Debt is not flexible. That's actually the point. A bank lending $50 million to a developer isn't in the real estate business — they want their money back, plus interest, and they want it predictably. They're not betting on the deal. They're financing it.</p>
 
 <div class="story-block">
   <div class="sb-label">A useful way to think about it</div>
@@ -293,8 +302,8 @@ const LESSONS = [
 </div>
 
 <div class="section-heading">Equity: invested money with a bet</div>
-<p>Equity is different. When someone invests equity into a hotel development, they're not lending — they're <strong>owning a piece</strong>. They share in the upside if the deal performs well. And they absorb the losses if it doesn't.</p>
-<p>Equity investors don't get a fixed interest payment. They get distributions — which only happen when the project generates cash, and only after the debt has been serviced. They're betting that this hotel will succeed, the brand will resonate, and the asset will be worth more at exit than it cost to build.</p>
+<p>Equity is different. When someone invests equity into a development project, they're not lending — they're <strong>owning a piece</strong>. They share in the upside if the deal performs well. And they absorb the losses if it doesn't.</p>
+<p>Equity investors don't get a fixed interest payment. They get distributions — which only happen when the project generates cash, and only after the debt has been serviced. They're betting that this building will succeed, that demand holds up, and that the asset will be worth more at exit than it cost to create.</p>
 
 <div class="highlight-box">
   <p><strong>The simplest version:</strong> Debt gets paid no matter what. Equity only gets paid if things go well — but has unlimited upside if things go really well.</p>
@@ -312,59 +321,59 @@ const LESSONS = [
 <div class="amber-box">
   <div class="ab-label">Terms worth knowing</div>
   <p><strong>Leverage:</strong> The use of borrowed money to amplify returns. A highly leveraged deal uses a lot of debt relative to equity.</p>
-  <p><strong>LTC (Loan-to-Cost):</strong> What percentage of the total project cost the bank is willing to lend. If a $70M hotel gets a 60% LTC loan, the bank lends $42M.</p>
+  <p><strong>LTC (Loan-to-Cost):</strong> What percentage of the total project cost the bank is willing to lend. If a $70M development gets a 60% LTC loan, the bank lends $42M.</p>
 </div>`,
     quiz: [
-      { q: "A developer receives rental income from her hotel. After paying all operating costs and loan payments, there's $1.2M left. Who receives this money?", opts: ["A) The bank, as additional interest", "B) The equity investors, as distributions", "C) It goes into a reserve account automatically", "D) The developer's management company"], correct: 1, exp: "After the debt (bank) is paid, remaining cash flows to equity investors as distributions. This is the fundamental reward for taking equity risk — a share of the profits once all obligations are met." },
+      { q: "A developer receives income from her completed project. After paying all operating costs and loan payments, there's $1.2M left. Who receives this money?", opts: ["A) The bank, as additional interest", "B) The equity investors, as distributions", "C) It goes into a reserve account automatically", "D) The developer's management company"], correct: 1, exp: "After the debt (bank) is paid, remaining cash flows to equity investors as distributions. This is the fundamental reward for taking equity risk — a share of the profits once all obligations are met." },
       { q: "Why do banks require developers to invest equity into a project rather than lending 100% of costs?", opts: ["A) It's a legal requirement in all states", "B) To ensure the developer has skin in the game and is aligned with making the project succeed", "C) Because banks can't lend more than 50% by regulation", "D) To reduce the bank's paperwork"], correct: 1, exp: "Equity requirement creates alignment. A developer with their own money at risk is far more motivated to make good decisions, manage costs carefully, and fight through challenges. This protects the bank's investment." },
-      { q: "A hotel project is described as '70% leveraged.' What does this mean?", opts: ["A) 70% of the hotel rooms are already booked", "B) The developer owns 70% of the project", "C) 70% of the project cost is funded by debt (loans)", "D) The project is 70% complete"], correct: 2, exp: "Leverage refers to the proportion of a project funded by debt. 70% leveraged means 70 cents of every dollar of project cost comes from borrowed money. The remaining 30% is equity — invested capital from the developer and investors." },
-      { q: "Why is debt considered 'cheaper' than equity as a funding source?", opts: ["A) Banks charge lower interest rates than equity investors demand in returns", "B) Debt doesn't need to be repaid", "C) Debt investors pay taxes on behalf of the developer", "D) Banks lend at 0% interest for hospitality projects"], correct: 0, exp: "A bank lending at 8% interest is cheaper capital than an equity investor expecting 15–20% annual returns. Because debt has priority protection (gets paid first) and lower risk, lenders accept lower returns. Equity investors take more risk and therefore demand more return." }
+      { q: "A development project is described as '70% leveraged.' What does this mean?", opts: ["A) 70% of the units are already sold or leased", "B) The developer owns 70% of the project", "C) 70% of the project cost is funded by debt (loans)", "D) The project is 70% complete"], correct: 2, exp: "Leverage refers to the proportion of a project funded by debt. 70% leveraged means 70 cents of every dollar of project cost comes from borrowed money. The remaining 30% is equity — invested capital from the developer and investors." },
+      { q: "Why is debt considered 'cheaper' than equity as a funding source?", opts: ["A) Banks charge lower interest rates than equity investors demand in returns", "B) Debt doesn't need to be repaid", "C) Debt investors pay taxes on behalf of the developer", "D) Banks lend at 0% interest for real estate projects"], correct: 0, exp: "A bank lending at 8% interest is cheaper capital than an equity investor expecting 15–20% annual returns. Because debt has priority protection (gets paid first) and lower risk, lenders accept lower returns. Equity investors take more risk and therefore demand more return." }
     ]
   },
 
   {
     part: 0,
-    title: "What Is a Branded Residence — and Why Does the Developer Care So Much About Selling Them?",
+    title: "What Is a Branded Residence — and Why Does the Developer Care So Much About Presales?",
     read: "6 min read",
     body: `
-<p>If you work in luxury hospitality, you've heard the term "branded residence." Maybe you've helped market them. Maybe you've written copy for them. But understanding <em>why</em> they exist — and why developers treat presales like oxygen — changes how you think about everything from project timelines to the urgency behind every sales push.</p>
+<p>If you work in luxury real estate — whether on the hospitality side or the residential side — you've likely encountered the branded residence. Maybe you've helped market them. Maybe you've written copy for them. But understanding <em>why</em> they exist — and why developers treat presales like oxygen — changes how you think about everything from project timelines to the urgency behind every sales push.</p>
 
 <div class="section-heading">What is a branded residence?</div>
-<p>A branded residence is a private home — a condominium, villa, or suite — that carries the brand of a luxury hotel. You're buying a property, but it comes with the Rosewood name on it, or the Six Senses, or the Aman, or the Virgin Limited Edition. The hotel brand manages the building, provides services (concierge, housekeeping, spa access, restaurants), and in many cases, you can put your unit into a rental pool when you're not there.</p>
-<p>From a buyer's perspective, you're getting: a turnkey luxury home, hotel-grade services at your door, a brand name that signals quality to future buyers, and optionally, income from renting it out.</p>
+<p>A branded residence is a private home — a condominium, villa, or suite — that carries the name of a luxury brand. In hospitality-adjacent developments, that brand is typically a hotel group: Rosewood, Six Senses, Aman, Four Seasons. In purely residential developments, it might be a fashion house (Armani, Porsche, Bentley), a luxury lifestyle brand, or an independent architect whose name alone commands a premium.</p>
+<p>What the buyer gets: a turnkey luxury home, a brand name that signals quality and maintains resale value, and — in hotel-affiliated residences — access to hotel-grade services, a rental pool option, and the prestige of a managed building.</p>
 <p>From a developer's perspective, branded residences are something else entirely.</p>
 
-<div class="section-heading">For the developer, they're a financing mechanism</div>
-<p>This is the part most people in hospitality don't realize, and it's the most important thing to understand.</p>
-<p>When a developer is building a $180 million luxury resort, they need to raise all that capital before the property opens — in fact, before much of it is even built. Lenders will cover a portion of the cost, and equity investors will contribute the rest. But here's the challenge: the hotel won't generate a dollar of operating income for 2–4 years. That's a long time to carry expensive capital.</p>
-<p>Branded residences solve this problem. When a developer presells a $2.5 million villa to a buyer before the project opens, that money comes in now — during construction. It reduces the amount of equity the developer needs to raise, which reduces their cost of capital and lowers the overall financial risk of the project.</p>
+<div class="section-heading">For the developer, presales are a financing mechanism</div>
+<p>This is the part most people in marketing and sales don't realise, and it's the most important thing to understand.</p>
+<p>When a developer is building a $180 million luxury development, they need to raise all that capital before the project opens — in fact, before much of it is even built. Lenders will cover a portion of the cost, and equity investors will contribute the rest. But here's the challenge: the project won't generate revenue for 2–4 years. That's a long time to carry expensive capital.</p>
+<p>Presales solve this problem. When a developer signs a contract to sell a $2.5 million residence before the project opens, that money — or at minimum a 10–30% deposit — comes in during construction. It reduces the amount of equity the developer needs to raise, which reduces their cost of capital and lowers the overall financial risk of the project.</p>
 
 <div class="story-block">
   <div class="sb-label">The numbers behind it</div>
-  <p>Imagine a $180M resort development with 40 branded residence villas priced at an average of $2.8M each. If the developer presells 30 of those units — 75% — they've brought in $84 million in presale proceeds before the hotel opens.</p>
+  <p>Imagine a $180M mixed-use development with 40 branded residences priced at an average of $2.8M each. If the developer presells 30 of those units — 75% — they've brought in $84 million in presale proceeds before the building opens.</p>
   <p>That $84 million might cover nearly all of the equity requirement for the project. Instead of needing to raise $54M in equity from investors, the developer might only need $15–20M. The presales did the heavy lifting.</p>
 </div>
 
-<p>This is why, when you're on the marketing team for a mixed-use resort development, the sales team is not just selling homes — they're completing the financing structure of the entire project.</p>
+<p>This is why, when you're on the marketing or sales team for a development, signed contracts aren't just commercial wins — they're completing the financing structure of the entire project.</p>
 
-<div class="section-heading">Why the brand matters (more than you might think)</div>
+<div class="section-heading">Why the brand commands a premium</div>
 <p>You might wonder: why can't a developer just sell regular condos? Why does it have to be <em>branded</em>?</p>
-<p>The brand does two things that a developer can't easily replicate on their own. First, it signals quality to a buyer who has never seen the finished product — buying off-plan (before completion) requires trust, and a Rosewood or Four Seasons flag carries decades of trust. Second, branded residences command a significant premium over non-branded equivalents in the same market — often 20–40% more per square foot.</p>
+<p>The brand does two things a developer can't easily replicate on their own. First, it signals quality to a buyer who has never seen the finished product — buying off-plan requires trust, and an established brand carries decades of it. Second, branded residences command a significant premium over non-branded equivalents in the same building or neighbourhood — often 20–40% more per square foot.</p>
 <p>That premium is what makes the economics work. Without the brand premium, presale prices might not be high enough to meaningfully reduce the equity burden.</p>
 
 <div class="highlight-box">
-  <p><strong>The two-sided value of a branded residence:</strong> For the buyer, it's lifestyle, services, and a trusted brand. For the developer, it's early cash that funds construction and reduces the need to raise expensive equity.</p>
+  <p><strong>The two-sided value of a branded residence:</strong> For the buyer, it's lifestyle, quality assurance, and a trusted name. For the developer, it's early cash that funds construction and reduces the need to raise expensive equity.</p>
 </div>
 
-<div class="section-heading">What this means for your work</div>
-<p>When a developer tells you that presales are "critical to getting to groundbreaking," they mean it literally. Insufficient presales can mean the financing structure falls apart — investors pull back because the risk profile changes, lenders get nervous about the equity coverage, and the whole project timeline shifts.</p>
-<p>Understanding this transforms how you approach your work. The urgency of the sales timeline isn't about enthusiasm or optics — it's structural. Every signed contract is a real reduction in the project's financial risk. Every qualified buyer who walks through a sales center is participating in a financing event, whether they know it or not.</p>
+<div class="section-heading">How this shows up in your work</div>
+<p>When a developer tells you that presales are "critical to getting to groundbreaking," they mean it literally. Insufficient presales can mean the financing structure falls apart — investors pull back because the risk profile changes, lenders get nervous, and the whole timeline shifts.</p>
+<p>Understanding this transforms how you approach your role. The urgency of the sales timeline isn't about enthusiasm or optics — it's structural. Every signed contract is a real reduction in the project's financial risk. Every qualified buyer who engages seriously is participating in a financing event, whether they know it or not.</p>
 
 <div class="amber-box">
   <div class="ab-label">Terms worth knowing</div>
   <p><strong>Presale:</strong> A signed purchase agreement for a property that hasn't been completed yet. The buyer pays a deposit (often 10–30%) now, with the balance due at closing.</p>
-  <p><strong>Off-plan:</strong> Buying a property based on plans and renderings rather than a finished product. Common in branded residence developments.</p>
-  <p><strong>Rental pool:</strong> A program where residence owners put their unit into rotation as a hotel room when not in use, sharing in the rental revenue.</p>
+  <p><strong>Off-plan:</strong> Buying a property based on plans and renderings rather than a finished product. Common in branded residence and luxury residential developments.</p>
+  <p><strong>Rental pool:</strong> A programme in hotel-affiliated residences where owners put their unit into rotation as a hotel room when not in use, sharing in the rental revenue.</p>
 </div>`,
     quiz: [
       { q: "A developer presells 25 branded residence units at an average of $3.1M each. How much in presale proceeds does this generate?", opts: ["A) $62.5M", "B) $77.5M", "C) $93M", "D) $51M"], correct: 1, exp: "25 units × $3.1M = $77.5M in presale proceeds. This capital comes in during construction — reducing the developer's need to raise equity from investors and lowering the overall cost of the project financing." },
@@ -390,15 +399,15 @@ const LESSONS = [
 <div class="section-heading">The Investors (the LPs)</div>
 <p><strong>Limited Partners (LPs)</strong> are the investors who put up the majority of the equity capital. They're "limited" in two senses: limited liability (they can only lose what they invested) and limited control (the GP makes the decisions).</p>
 <p>LPs come in many forms: high-net-worth individuals, family offices, institutional investors like pension funds, real estate private equity funds, and sovereign wealth funds. What they share: they want a strong return on their capital, they've evaluated and trusted the GP's track record, and they expect regular reporting and transparency.</p>
-<p>LPs don't run the hotel. They don't choose the furniture. They evaluate the deal, commit capital, and wait for distributions.</p>
+<p>LPs don't manage the building. They don't choose the furniture. They evaluate the deal, commit capital, and wait for distributions.</p>
 
 <div class="story-block">
   <div class="sb-label">The key tension to understand</div>
-  <p>GPs and LPs are partners, but they don't always want the same things. A GP might want to sell a hotel at Year 4 to capture a high return and move on to the next project. An LP might prefer to hold longer if the hotel is generating great cash flow. Understanding this tension explains a lot of the dynamics in deal conversations.</p>
+  <p>GPs and LPs are partners, but they don't always want the same things. A GP might want to sell a development asset at Year 4 to capture a high return and move on to the next project. An LP might prefer to hold longer if the asset is generating great cash flow. Understanding this tension explains a lot of the dynamics in deal conversations.</p>
 </div>
 
 <div class="section-heading">The Lender</div>
-<p>The lender — usually a bank, a debt fund, or a life insurance company — provides the debt portion of the capital stack. They're not owners. They're creditors. They don't share in the upside if the hotel performs exceptionally. They want their principal back plus interest, on schedule.</p>
+<p>The lender — usually a bank, a debt fund, or a life insurance company — provides the debt portion of the capital stack. They're not owners. They're creditors. They don't share in the upside if the project performs exceptionally. They want their principal back plus interest, on schedule.</p>
 <p>The lender's relationship to the project is fundamentally different from the GP's or LP's. They're evaluating whether the asset can reliably generate enough income to service the debt — not whether it's a great investment.</p>
 
 <div class="section-heading">The Advisor / Broker</div>
@@ -408,8 +417,8 @@ const LESSONS = [
   <p><strong>The simple version:</strong> GP runs the deal. LP funds most of it and expects returns. Lender provides debt and expects repayment. Advisor brings the parties together and charges for that expertise.</p>
 </div>
 
-<div class="section-heading">Why this matters for your work</div>
-<p>When you're writing investor presentations or marketing materials, you're often writing for multiple audiences simultaneously — and they care about different things. An LP cares about returns, track record, and risk management. A lender cares about income stability and asset quality. A branded buyer cares about lifestyle and prestige. The developer cares about all of it.</p>
+<div class="section-heading">How this shows up in your work</div>
+<p>When you're writing investor presentations or marketing materials, you're often writing for multiple audiences simultaneously — and they care about different things. An LP cares about returns, track record, and risk management. A lender cares about income stability and asset quality. A buyer cares about the product itself — the lifestyle, the location, the value proposition. The developer cares about all of it.</p>
 <p>Knowing who's in the room — and what they actually want — makes your materials sharper, more targeted, and far more effective.</p>
 
 <div class="term-list">
@@ -420,9 +429,9 @@ const LESSONS = [
 </div>`,
     quiz: [
       { q: "A GP invests $4M of their own money into a $55M deal. The remaining $51M comes from LP investors. Who makes the day-to-day decisions about the project?", opts: ["A) The LP investors, since they contributed more capital", "B) The lender, since they have the most to lose", "C) The GP, who controls the deal regardless of equity share", "D) A committee of all parties equally"], correct: 2, exp: "GPs control the deal — that's the defining characteristic of the General Partner role. Despite investing a smaller proportion of equity, the GP has operational authority to make decisions. LPs are 'limited' precisely because they don't control operations." },
-      { q: "An LP investor in a hotel development wants to understand how their money is protected. Which statement best describes their position?", opts: ["A) They share equally in all risks and rewards with the GP", "B) They receive distributions after the debt is serviced, and their liability is limited to their invested capital", "C) They're guaranteed a minimum return by the bank", "D) They have first priority in a loss scenario"], correct: 1, exp: "LP limited liability means they can only lose what they invested — they're not personally responsible for the project's debts. They receive distributions from cash flow after debt service. They're not first in line in a loss scenario (the lender is), but their risk is capped at their equity contribution." },
-      { q: "A lender is evaluating whether to provide a $45M construction loan for a hotel. What is their primary concern?", opts: ["A) Whether the hotel will become a famous destination", "B) Whether the GP has a strong brand relationship", "C) Whether the asset will generate enough income to reliably service the debt", "D) Whether the design wins architectural awards"], correct: 2, exp: "Lenders evaluate deals through a debt-repayment lens. Their primary question is: can this asset reliably generate enough income to cover interest payments and eventually repay principal? They're not investing in the upside — they want assurance they'll get their money back." },
-      { q: "Why might the GP and LP have different preferences about when to sell a hotel?", opts: ["A) GPs prefer to never sell; LPs always want to sell immediately", "B) GPs may want to sell earlier to realize returns and move on; LPs may prefer to hold longer if cash flow is strong", "C) They always agree because their interests are perfectly aligned", "D) The lender decides when the hotel is sold"], correct: 1, exp: "GP and LP incentives aren't always identical. GPs often earn their promote (carried interest) at exit — so selling realizes their economics and frees them for the next deal. LPs holding a strong cash-flowing asset may prefer to keep the distribution stream going. This tension is normal and managed through the operating agreement." }
+      { q: "An LP investor in a development project wants to understand how their money is protected. Which statement best describes their position?", opts: ["A) They share equally in all risks and rewards with the GP", "B) They receive distributions after the debt is serviced, and their liability is limited to their invested capital", "C) They're guaranteed a minimum return by the bank", "D) They have first priority in a loss scenario"], correct: 1, exp: "LP limited liability means they can only lose what they invested — they're not personally responsible for the project's debts. They receive distributions from cash flow after debt service. They're not first in line in a loss scenario (the lender is), but their risk is capped at their equity contribution." },
+      { q: "A lender is evaluating whether to provide a $45M construction loan. What is their primary concern?", opts: ["A) Whether the project will become a famous destination", "B) Whether the GP has a strong brand relationship", "C) Whether the asset will generate enough income to reliably service the debt", "D) Whether the design wins architectural awards"], correct: 2, exp: "Lenders evaluate deals through a debt-repayment lens. Their primary question is: can this asset reliably generate enough income to cover interest payments and eventually repay principal? They're not investing in the upside — they want assurance they'll get their money back." },
+      { q: "Why might the GP and LP have different preferences about when to sell a development asset?", opts: ["A) GPs prefer to never sell; LPs always want to sell immediately", "B) GPs may want to sell earlier to realize returns and move on; LPs may prefer to hold longer if cash flow is strong", "C) They always agree because their interests are perfectly aligned", "D) The lender decides when the asset is sold"], correct: 1, exp: "GP and LP incentives aren't always identical. GPs often earn their promote (carried interest) at exit — so selling realizes their economics and frees them for the next deal. LPs holding a strong cash-flowing asset may prefer to keep the distribution stream going. This tension is normal and managed through the operating agreement." }
     ]
   },
 
@@ -436,7 +445,7 @@ const LESSONS = [
 <p>Understanding the waterfall helps you understand what developers and investors are actually negotiating when they sit across from each other at the term sheet stage. It also explains why some deals feel more "investor friendly" than others.</p>
 
 <div class="section-heading">Level one: Get your money back first</div>
-<p>Before anyone talks about profit, the deal has to return everyone's invested capital. If $25 million of equity went into a hotel, the first $25 million of proceeds from operations or a sale goes back to the investors — proportionally, based on how much each person put in.</p>
+<p>Before anyone talks about profit, the deal has to return everyone's invested capital. If $25 million of equity went into a project, the first $25 million of proceeds from operations or a sale goes back to the investors — proportionally, based on how much each person put in.</p>
 <p>This isn't profit. It's just getting back to zero. Only after that point does the waterfall start flowing toward actual returns.</p>
 
 <div class="section-heading">Level two: The preferred return</div>
@@ -446,19 +455,19 @@ const LESSONS = [
 
 <div class="story-block">
   <div class="sb-label">Why this matters in development deals specifically</div>
-  <p>Luxury hotel developments often take 4–5 years from groundbreaking to stabilization. For 2–3 of those years, the hotel is under construction and generating zero income. The preferred return keeps ticking the whole time. By the time the hotel opens and is sold, investors might be owed 4 years of accumulated preferred return — $3.2 million on a $10M investment — before the developer sees a dollar of bonus. This is why developers take the timeline very seriously.</p>
+  <p>Luxury hotel developments often take 4–5 years from groundbreaking to stabilization. For 2–3 of those years, the project is under construction and generating zero income. The preferred return keeps ticking the whole time. By the time the project opens and sells, investors might be owed 4 years of accumulated preferred return — $3.2 million on a $10M investment — before the developer sees a dollar of bonus. This is why developers take the timeline very seriously.</p>
 </div>
 
 <div class="section-heading">Level three: The promote</div>
 <p>This is the developer's reward. Once investors have been made whole (capital returned, preferred return paid), remaining profits are split — and not equally. The developer gets a larger proportional share than their equity investment would suggest.</p>
 <p>A typical structure: the investor gets 80% of remaining profits, the developer gets 20%. But the developer only invested 10% of the equity. That extra 10% is the <strong>promote</strong> — carried interest that compensates the developer for building something successfully.</p>
-<p>In deals where the developer really outperforms — say, the hotel sells for far more than anyone expected — the promote split might step up further. 70/30, then 60/40 above an even higher return threshold. The better the deal performs, the more the developer earns.</p>
+<p>In deals where the developer really outperforms — say, the project sells for far more than anyone expected — the promote split might step up further. 70/30, then 60/40 above an even higher return threshold. The better the deal performs, the more the developer earns.</p>
 
 <div class="highlight-box">
   <p><strong>The waterfall in plain English:</strong> Return everyone's money first. Then pay investors their minimum annual return. Then split remaining profits — with the developer getting more than their equity share as a reward for doing the work and taking the risk.</p>
 </div>
 
-<div class="section-heading">What this sounds like in real conversations</div>
+<div class="section-heading">What this sounds like in the room</div>
 <p>When someone mentions an "8% pref with an 80/20 split above a 12% IRR hurdle" — that's the waterfall in shorthand. It means: investors get 8% annual return before anyone else sees profit, and above a 12% total annual return, profits split 80% to investors and 20% to the developer.</p>
 <p>You don't need to calculate any of this. But knowing the structure exists — and that these numbers are actively negotiated — will make you a more credible voice in any deal conversation.</p>
 
@@ -470,7 +479,7 @@ const LESSONS = [
 </div>`,
     quiz: [
       { q: "An investor puts $8M into a hotel deal with an 8% preferred return. The hotel takes 3 years to stabilize and sell. How much preferred return is owed to this investor before the developer earns any promote?", opts: ["A) $640K", "B) $1.28M", "C) $1.92M", "D) $2.56M"], correct: 2, exp: "$8M × 8% × 3 years = $1.92M in accumulated preferred return. This must be paid to the investor — on top of returning their $8M capital — before the developer earns any promoted share of profits." },
-      { q: "In a deal with an 80/20 promote split, the developer invested 10% of total equity. What does the 80/20 split mean?", opts: ["A) The developer gets 80% of profits", "B) After the preferred return is paid, investors get 80% of remaining profits and the developer gets 20%", "C) The developer pays 20% of costs", "D) 80% of the hotel rooms must be sold before distributions"], correct: 1, exp: "The 80/20 promote split applies to profits above the preferred return threshold. Investors receive 80% and the developer receives 20% — despite the developer only having invested 10% of the equity. The extra 10% is the 'promote' that rewards the developer for successfully executing the deal." },
+      { q: "In a deal with an 80/20 promote split, the developer invested 10% of total equity. What does the 80/20 split mean?", opts: ["A) The developer gets 80% of profits", "B) After the preferred return is paid, investors get 80% of remaining profits and the developer gets 20%", "C) The developer pays 20% of costs", "D) 80% of the units must be sold before distributions"], correct: 1, exp: "The 80/20 promote split applies to profits above the preferred return threshold. Investors receive 80% and the developer receives 20% — despite the developer only having invested 10% of the equity. The extra 10% is the 'promote' that rewards the developer for successfully executing the deal." },
       { q: "Why is the order of the waterfall (capital first, then preferred return, then promote) important to LP investors?", opts: ["A) It's just a legal formality with no real impact", "B) It ensures investors get their money back and minimum return before the developer earns any bonus", "C) It makes the accounting simpler", "D) It benefits the developer primarily"], correct: 1, exp: "The waterfall order is the LP's primary protection. By establishing that capital must be returned and preferred return must be paid before any promote flows to the developer, the structure ensures the developer is only rewarded after investors have been made whole. It aligns developer incentives with investor outcomes." },
       { q: "A hotel sells for far more than projected. The deal has a 'step-up promote' — 80/20 up to 15% IRR, then 70/30 above. What happens to the developer's economics in the exceptional return scenario?", opts: ["A) The developer gets less — the step-up punishes overperformance", "B) Nothing changes — the split stays 80/20 regardless", "C) The developer earns a higher promote percentage (30%) on profits above the 15% IRR threshold", "D) The investors receive all profits above 15% IRR"], correct: 2, exp: "Step-up promotes reward exceptional performance. Once returns exceed the 15% IRR threshold, the developer earns 30% (instead of 20%) of every additional dollar of profit. This creates a powerful incentive for the developer to maximize returns — the better the deal performs, the more the developer makes." }
     ]
@@ -501,12 +510,12 @@ const LESSONS = [
 
 <div class="section-heading">Cash-on-cash: what am I earning right now?</div>
 <p>Cash-on-cash return measures the annual income a property generates relative to the equity invested. It's the "current yield" — what you're earning today, not what you'll earn at exit.</p>
-<p>If an investor put in $5 million and receives $350,000 per year in distributions from hotel operations, their cash-on-cash return is 7%. This is the metric that matters most to investors who need current income — like family offices that rely on distributions for operating expenses.</p>
-<p>Development deals typically have zero cash-on-cash return for 3–4 years while the hotel is being built. This is why the waterfall mechanics and IRR calculation matter so much — the payoff is back-end loaded.</p>
+<p>If an investor put in $5 million and receives $350,000 per year in distributions from the property, their cash-on-cash return is 7%. This is the metric that matters most to investors who need current income — like family offices that rely on distributions for operating expenses.</p>
+<p>Development deals typically have zero cash-on-cash return for 3–4 years while the project is being built. This is why the waterfall mechanics and IRR calculation matter so much — the payoff is back-end loaded.</p>
 
 <div class="section-heading">Why these metrics create tension</div>
-<p>Here's where it gets interesting. A developer who is paid a "promote" — their extra share of profits — gets paid at the end of a deal, when the hotel is sold. So they want to sell. They have a strong IRR incentive to exit the deal, realize their promote, and move on to the next project.</p>
-<p>An LP investor who is receiving strong quarterly distributions might prefer to hold the hotel indefinitely. Their cash-on-cash return is great. Why sell?</p>
+<p>Here's where it gets interesting. A developer who is paid a "promote" — their extra share of profits — gets paid at the end of a deal, when the asset is sold. So they want to sell. They have a strong IRR incentive to exit the deal, realize their promote, and move on to the next project.</p>
+<p>An LP investor who is receiving strong quarterly distributions might prefer to hold the asset indefinitely. Their cash-on-cash return is great. Why sell?</p>
 <p>This is a genuine, normal tension in GP/LP structures — and it explains why operating agreements (the legal document governing every partnership) have detailed provisions about when the GP can force a sale, when LPs can block one, and how those decisions get made.</p>
 
 <div class="highlight-box">
@@ -515,12 +524,12 @@ const LESSONS = [
 
 <div class="amber-box">
   <div class="ab-label">What this sounds like</div>
-  <p>When a developer pitches a deal and says "we're targeting a 16% IRR and a 2.0x equity multiple over a 5-year hold," they're describing both how much investors will make and how fast. If someone asks "what's the cash-on-cash during the hold?" — they want to know how much income the hotel generates annually before the sale.</p>
+  <p>When a developer pitches a deal and says "we're targeting a 16% IRR and a 2.0x equity multiple over a 5-year hold," they're describing both how much investors will make and how fast. If someone asks "what's the cash-on-cash during the hold?" — they want to know how much income the property generates annually before the sale.</p>
 </div>`,
     quiz: [
-      { q: "Investor A makes 2.0x their money in 3 years. Investor B makes 2.0x in 7 years. Who had the better investment, and why?", opts: ["A) Investor B — they held longer, showing more patience", "B) Investor A — the same return in a shorter time produces a higher annual IRR", "C) They're equal — same equity multiple means same quality", "D) Investor B — hotel investments always reward longer holds"], correct: 1, exp: "Investor A had a far better investment. 2.0x in 3 years is approximately a 26% IRR. 2.0x in 7 years is approximately a 10% IRR. Same equity multiple, dramatically different time efficiency. This is exactly why IRR matters alongside equity multiple." },
-      { q: "A hotel generates $420K in annual distributions. The equity investor contributed $6M. What is their cash-on-cash return?", opts: ["A) 6%", "B) 7%", "C) 8%", "D) 9%"], correct: 1, exp: "$420K ÷ $6M = 7%. Cash-on-cash return is simply the annual cash distributions divided by invested equity. It tells you what the investment is yielding today — independent of what happens at eventual sale." },
-      { q: "A developer (GP) has a promote that pays out when the hotel is sold. An LP investor is earning strong annual distributions from hotel operations. Why might they disagree about timing?", opts: ["A) The GP wants to hold; the LP wants to sell", "B) The GP wants to sell to realize the promote; the LP wants to hold and keep the cash flow", "C) They always agree because their contracts require it", "D) The lender decides when to sell"], correct: 1, exp: "The GP earns their promote at exit — creating a strong incentive to sell and realize that profit, then move on. The LP who is receiving solid distributions may prefer the steady income stream and see no reason to sell into an uncertain market. This misalignment is normal and managed contractually." },
+      { q: "Investor A makes 2.0x their money in 3 years. Investor B makes 2.0x in 7 years. Who had the better investment, and why?", opts: ["A) Investor B — they held longer, showing more patience", "B) Investor A — the same return in a shorter time produces a higher annual IRR", "C) They're equal — same equity multiple means same quality", "D) Investor B — real estate investments always reward longer holds"], correct: 1, exp: "Investor A had a far better investment. 2.0x in 3 years is approximately a 26% IRR. 2.0x in 7 years is approximately a 10% IRR. Same equity multiple, dramatically different time efficiency. This is exactly why IRR matters alongside equity multiple." },
+      { q: "A property generates $420K in annual distributions. The equity investor contributed $6M. What is their cash-on-cash return?", opts: ["A) 6%", "B) 7%", "C) 8%", "D) 9%"], correct: 1, exp: "$420K ÷ $6M = 7%. Cash-on-cash return is simply the annual cash distributions divided by invested equity. It tells you what the investment is yielding today — independent of what happens at eventual sale." },
+      { q: "A developer (GP) has a promote that pays out when the asset is sold. An LP investor is earning strong annual distributions from the property. Why might they disagree about timing?", opts: ["A) The GP wants to hold; the LP wants to sell", "B) The GP wants to sell to realize the promote; the LP wants to hold and keep the cash flow", "C) They always agree because their contracts require it", "D) The lender decides when to sell"], correct: 1, exp: "The GP earns their promote at exit — creating a strong incentive to sell and realize that profit, then move on. The LP who is receiving solid distributions may prefer the steady income stream and see no reason to sell into an uncertain market. This misalignment is normal and managed contractually." },
       { q: "A developer pitches a deal with a '2.2x equity multiple over a 6-year hold.' What additional metric would help you evaluate whether this is actually a good return?", opts: ["A) The hotel's star rating", "B) The IRR — which shows the annual return rate, accounting for timing", "C) The number of rooms in the hotel", "D) The brand affiliation"], correct: 1, exp: "A 2.2x over 6 years needs context — and IRR provides it. 2.2x in 6 years is approximately a 14% IRR, which is reasonable. 2.2x in 10 years is only about 8% IRR — potentially below what an investor could earn elsewhere with less risk. Always look at both metrics together." }
     ]
   },
@@ -539,24 +548,24 @@ const LESSONS = [
 <p>Until the exit, everything is a projection. At the exit, you find out if you were right.</p>
 
 <div class="section-heading">Why the exit price matters so much</div>
-<p>In a typical hotel development deal, most of the equity return comes from the sale — not from annual operating income. The hotel might generate modest cash distributions during the hold period, but the big payday for investors (and especially for the developer's promote) comes when the asset sells.</p>
+<p>In a typical development deal, most of the equity return comes from the sale — not from annual operating income. The asset might generate modest cash distributions during the hold period, but the big payday for investors (and especially for the developer's promote) comes when the asset sells.</p>
 <p>This is why the projected exit price — and the assumptions behind it — receive so much scrutiny. A small change in the exit price assumption can mean millions of dollars of difference in equity returns.</p>
 
 <div class="story-block">
   <div class="sb-label">The cap rate at exit</div>
-  <p>When a hotel is sold, buyers and sellers arrive at a price using what's called a "capitalization rate" — or cap rate. A hotel generating $5 million in annual income, sold at a 6% cap rate, sells for $83.3 million ($5M ÷ 6% = $83.3M). The same hotel sold at a 7% cap rate sells for $71.4M. That's nearly $12 million of difference — from a single percentage point change in cap rate. That $12M flows directly to (or away from) the equity investors. It's the most impactful single variable in many hotel deals.</p>
+  <p>When a hotel is sold, buyers and sellers arrive at a price using what's called a "capitalization rate" — or cap rate. A property generating $5 million in annual income, sold at a 6% cap rate, sells for $83.3 million ($5M ÷ 6% = $83.3M). The same property sold at a 7% cap rate sells for $71.4M. That's nearly $12 million of difference — from a single percentage point change in cap rate. That $12M flows directly to (or away from) the equity investors. It's the most impactful single variable in most development deals.</p>
 </div>
 
 <div class="section-heading">What investors stress about between now and the exit</div>
-<p>If you've ever wondered why investors seem anxious about interest rates or broader economic conditions — this is a big reason why. Rising interest rates tend to push cap rates up, which reduces exit values. A deal underwritten in a 5.5% cap rate environment suddenly faces a 7% cap rate world if rates spike. The hotel didn't change. The income didn't change. But the exit value dropped significantly.</p>
+<p>If you've ever wondered why investors seem anxious about interest rates or broader economic conditions — this is a big reason why. Rising interest rates tend to push cap rates up, which reduces exit values. A deal underwritten in a 5.5% cap rate environment suddenly faces a 7% cap rate world if rates spike. The project didn't change. The income didn't change. But the exit value dropped significantly.</p>
 <p>This is also why developers and investors spend so much time building "downside scenarios" — models that ask: what if the cap rate is worse than we assumed? What if NOI (the hotel's income) is lower than projected? What does the return look like then?</p>
 
 <div class="highlight-box">
   <p><strong>The exit is not an afterthought.</strong> It's the primary event around which most deal economics are built. Understanding this helps you understand why deal teams spend so much energy on assumptions that won't be tested for years.</p>
 </div>
 
-<div class="section-heading">What this means for your work</div>
-<p>When you're writing materials for a development project — whether it's a pitch deck, a press release, or marketing copy — understanding the exit helps you understand what the developer is actually promising investors. They're not just building a beautiful hotel. They're building an asset they intend to sell at a profit, at a specific time, under specific assumptions.</p>
+<div class="section-heading">How this shows up in your work</div>
+<p>When you're writing materials for a development project — whether it's a pitch deck, a press release, or marketing copy — understanding the exit helps you understand what the developer is actually promising investors. They're not just building something beautiful. They're building an asset they intend to sell at a profit, at a specific time, under specific assumptions.</p>
 <p>That's a fundamentally different story than "we're creating a world-class hospitality experience" — and both stories are true simultaneously. The best marketing understands and bridges both.</p>
 
 <div class="amber-box">
@@ -566,10 +575,10 @@ const LESSONS = [
   <p><strong>Hold period:</strong> The planned duration of ownership before sale, usually 4–7 years for development deals.</p>
 </div>`,
     quiz: [
-      { q: "A hotel generates $4.5M in annual NOI. At a 6.0% exit cap rate, what is the exit value?", opts: ["A) $27M", "B) $56.3M", "C) $75M", "D) $45M"], correct: 2, exp: "Exit value = NOI ÷ Cap Rate = $4.5M ÷ 0.06 = $75M. This is how hotel values are calculated at exit. The formula is always: divide annual income by the cap rate." },
-      { q: "Cap rates in the market rise from 6.0% to 7.0%. A hotel has $4.5M NOI. How much value does it lose?", opts: ["A) $4.5M", "B) $10.7M", "C) $7.5M", "D) $16.1M"], correct: 1, exp: "At 6.0% cap: $4.5M ÷ 0.06 = $75M. At 7.0% cap: $4.5M ÷ 0.07 = $64.3M. Value loss = $75M − $64.3M = $10.7M. This entire $10.7M loss flows to the equity investors — showing why cap rate assumptions are so scrutinized." },
-      { q: "Why do most equity returns in hotel development deals come from the exit sale rather than annual operating income?", opts: ["A) Hotels don't generate annual income", "B) Annual income goes to the bank, not investors", "C) The biggest value creation — building a stabilized asset — is realized when sold, not through distributions during the hold", "D) Regulations require all income to be reinvested"], correct: 2, exp: "Hotel development deals are structured so that the primary value creation happens through building and stabilizing an asset worth more than it cost to create. Annual distributions during the hold are typically modest. The big equity return — and the developer's promote — crystallizes at the sale event." },
-      { q: "A developer models a 'downside exit scenario.' What are they doing and why?", opts: ["A) Planning for the hotel to close early", "B) Testing returns if the exit cap rate is higher and NOI is lower than projected — to understand the risk", "C) Calculating the minimum sale price the developer will accept", "D) Preparing for bankruptcy proceedings"], correct: 1, exp: "A downside scenario tests deal resilience: what happens if exit cap rates are worse than expected, or if the hotel's income underperforms? Sophisticated investors require this analysis before committing capital. It shows the deal team has honestly evaluated risk, not just the best-case outcome." }
+      { q: "A property generates $4.5M in annual NOI. At a 6.0% exit cap rate, what is the exit value?", opts: ["A) $27M", "B) $56.3M", "C) $75M", "D) $45M"], correct: 2, exp: "Exit value = NOI ÷ Cap Rate = $4.5M ÷ 0.06 = $75M. This is how property values are calculated at exit. The formula is always: divide annual income by the cap rate." },
+      { q: "Cap rates in the market rise from 6.0% to 7.0%. A property has $4.5M NOI. How much value does it lose?", opts: ["A) $4.5M", "B) $10.7M", "C) $7.5M", "D) $16.1M"], correct: 1, exp: "At 6.0% cap: $4.5M ÷ 0.06 = $75M. At 7.0% cap: $4.5M ÷ 0.07 = $64.3M. Value loss = $75M − $64.3M = $10.7M. This entire $10.7M loss flows to the equity investors — showing why cap rate assumptions are so scrutinized." },
+      { q: "Why do most equity returns in hotel development deals come from the exit sale rather than annual operating income?", opts: ["A) Properties don't generate annual income", "B) Annual income goes to the bank, not investors", "C) The biggest value creation — building a stabilized asset — is realized when sold, not through distributions during the hold", "D) Regulations require all income to be reinvested"], correct: 2, exp: "Development deals are structured so that the primary value creation happens through building and stabilizing an asset worth more than it cost to create. Annual distributions during the hold are typically modest. The big equity return — and the developer's promote — crystallizes at the sale event." },
+      { q: "A developer models a 'downside exit scenario.' What are they doing and why?", opts: ["A) Planning for the hotel to close early", "B) Testing returns if the exit cap rate is higher and NOI is lower than projected — to understand the risk", "C) Calculating the minimum sale price the developer will accept", "D) Preparing for bankruptcy proceedings"], correct: 1, exp: "A downside scenario tests deal resilience: what happens if exit cap rates are worse than expected, or if the property's income underperforms? Sophisticated investors require this analysis before committing capital. It shows the deal team has honestly evaluated risk, not just the best-case outcome." }
     ]
   },
 
@@ -579,42 +588,42 @@ const LESSONS = [
     title: "NOI: The One Number That Drives Everything",
     read: "5 min read",
     body: `
-<p>There is one number that sits at the center of almost every financial conversation about a hotel or resort: <strong>NOI</strong>. Net Operating Income. Once you understand what it is and why it matters, a lot of other conversations start making more sense.</p>
+<p>There is one number that sits at the center of almost every financial conversation about an income-producing property: <strong>NOI</strong>. Net Operating Income. Once you understand what it is and why it matters, a lot of other conversations start making more sense.</p>
 
 <div class="section-heading">What NOI actually is</div>
-<p>NOI is what a hotel earns from operations after all the day-to-day costs of running it — but before paying the bank and before accounting for depreciation or big capital improvements.</p>
-<p>The simplest version: Take everything the hotel brings in (rooms, food, spa, events). Subtract everything it costs to run (staff, utilities, supplies, insurance, property taxes, management fees). What's left is NOI.</p>
+<p>NOI is what a property earns from operations after all the day-to-day costs of running it — but before paying the bank and before accounting for depreciation or big capital improvements.</p>
+<p>The simplest version: take everything the property brings in. Subtract everything it costs to run. What's left is NOI. For a hotel that's rooms, F&B, spa — minus staff, utilities, management fees. For a residential building that's rental income minus maintenance, management, and property taxes. The categories differ. The principle is identical.</p>
 
 <div class="story-block">
   <div class="sb-label">A simple example</div>
-  <p>A 160-key boutique hotel in Nashville generates $14.2M in total revenue in a year. After paying all operating costs — labor, F&B costs, utilities, property taxes, insurance, management fee, and a reserve for future renovations — the hotel has $4.8M left over.</p>
-  <p>That $4.8M is the NOI. It's not profit in the accounting sense. It's the hotel's operational earnings — the number that tells investors and lenders how much this asset is worth.</p>
+  <p>A 90-unit residential building generates $5.4M in annual rent. After property management fees, maintenance, insurance, property taxes, and a reserve for future repairs — $3.3M remains.</p>
+  <p>That $3.3M is the NOI. It's the property's operational earnings — the number that tells investors and lenders how much this asset is worth.</p>
 </div>
 
 <div class="section-heading">Why does NOI drive everything?</div>
 <p>Because everything downstream — property value, loan sizing, investor returns, the exit — is calculated from NOI.</p>
 <p><strong>Property value</strong> is calculated by dividing NOI by the market cap rate. Higher NOI = higher value. Lower NOI = lower value. It's a direct, linear relationship. Every $100,000 increase in NOI adds $1.5–$2 million in value at a 5–7% cap rate.</p>
-<p><strong>Loan size</strong> is partially determined by whether NOI can comfortably cover debt service. Lenders look at a ratio called DSCR (Debt Service Coverage Ratio) — essentially: does the hotel earn enough after operations to reliably pay the bank?</p>
+<p><strong>Loan size</strong> is partially determined by whether NOI can comfortably cover debt service. Lenders look at a ratio called DSCR (Debt Service Coverage Ratio) — essentially: does the property earn enough after operations to reliably pay the bank?</p>
 <p><strong>Investor returns</strong> are funded by NOI. Cash distributions to investors come from NOI after the bank is paid. No NOI growth, no distribution growth.</p>
 
 <div class="highlight-box">
-  <p><strong>NOI is the engine of a hotel's financial life.</strong> Everything — valuation, debt capacity, investor returns, exit price — is derived from this number. When someone says "the hotel is performing well," what they usually mean is: NOI is meeting or beating projections.</p>
+  <p><strong>NOI is the engine of a property's financial life.</strong> Everything — valuation, debt capacity, investor returns, exit price — is derived from this number. When someone says "the asset is performing well," what they usually mean is: NOI is meeting or beating projections.</p>
 </div>
 
 <div class="section-heading">What affects NOI — and what doesn't</div>
-<p>NOI goes up when: occupancy increases, average daily rate (ADR) increases, ancillary revenue (spa, F&B, events) grows, or operating costs are managed efficiently.</p>
+<p>NOI goes up when: occupancy or leasing rates increase, revenue per unit grows, ancillary income improves, or operating costs are managed efficiently.</p>
 <p>NOI is not affected by: how the hotel is financed (debt payments don't reduce NOI), depreciation, or major capital improvements (like a lobby renovation). These are separate line items that matter for accounting and tax purposes, but they sit below NOI.</p>
-<p>This is an important distinction. A hotel might show a paper "loss" for tax purposes due to depreciation — but still have strong NOI. The NOI tells you how the business is operating. Everything else is accounting.</p>
+<p>This is an important distinction. A property might show a paper "loss" for tax purposes due to depreciation — but still have strong NOI. The NOI tells you how the business is operating. Everything else is accounting.</p>
 
-<div class="section-heading">What this sounds like in real life</div>
-<p>When a hotel's management team reports to ownership, the most important number in the room is usually NOI vs. budget. When a deal is being underwritten, the most scrutinized projection is stabilized NOI. When an investor asks "how is the asset performing?" — they want to know about NOI.</p>
+<div class="section-heading">What this sounds like day to day</div>
+<p>When an ownership team reports to investors, the most important number in the room is usually NOI vs. budget. When a deal is being underwritten, the most scrutinized projection is stabilized NOI. When an investor asks "how is the asset performing?" — they want to know about NOI.</p>
 <p>Learning to think in terms of NOI — and understanding what moves it — is one of the most useful things you can do for your career in this industry.</p>
 
 <div class="amber-box">
   <div class="ab-label">Terms worth knowing</div>
-  <p><strong>NOI:</strong> Hotel revenue minus operating expenses, before debt service and depreciation. The core measure of a hotel's financial performance.</p>
-  <p><strong>RevPAR:</strong> Revenue Per Available Room — occupancy × average daily rate. The primary hospitality metric that feeds into NOI.</p>
-  <p><strong>Stabilized NOI:</strong> The NOI the hotel is expected to achieve once it has reached a steady operating state — typically 2–3 years after opening.</p>
+  <p><strong>NOI:</strong> Hotel revenue minus operating expenses, before debt service and depreciation. The core measure of a property's financial performance.</p>
+  
+  <p><strong>Stabilized NOI:</strong> The NOI the property is expected to achieve once it has reached a steady operating state — typically 2–3 years after opening.</p>
 </div>`,
     quiz: [
       { q: "A resort generates $18.5M in revenue and has $11.2M in operating costs. What is the NOI?", opts: ["A) $5.8M", "B) $7.3M", "C) $6.9M", "D) $8.1M"], correct: 1, exp: "NOI = Revenue − Operating Expenses = $18.5M − $11.2M = $7.3M. Simple subtraction — but remember that debt payments and depreciation are NOT included in operating expenses for NOI purposes." },
@@ -626,51 +635,51 @@ const LESSONS = [
 
   {
     part: 2,
-    title: "Can the Hotel Pay Its Bills? Understanding DSCR",
+    title: "Can the Property Pay Its Bills? Understanding DSCR",
     read: "4 min read",
     body: `
-<p>When a developer applies for a loan to build or buy a hotel, the bank's fundamental question is not "is this a beautiful property?" or "is the brand prestigious?" It's much more specific:</p>
-<p><em>If we lend you $50 million, can this hotel reliably generate enough income to pay us back every month?</em></p>
-<p>The metric they use to answer that question is called <strong>DSCR</strong> — Debt Service Coverage Ratio. It's one of the most important numbers in any hotel financing conversation, and understanding it will help you make sense of why lenders behave the way they do.</p>
+<p>When a developer applies for a loan to build or buy a property, the bank's fundamental question is not "is this a beautiful property?" or "is the brand prestigious?" It's much more specific:</p>
+<p><em>If we lend you $50 million, can this property reliably generate enough income to pay us back every month?</em></p>
+<p>The metric they use to answer that question is called <strong>DSCR</strong> — Debt Service Coverage Ratio. It's one of the most important numbers in any real estate financing conversation, and understanding it will help you make sense of why lenders behave the way they do.</p>
 
 <div class="section-heading">What DSCR measures</div>
-<p>DSCR compares a hotel's annual NOI to the annual debt payments it owes the bank. It's a simple ratio:</p>
-<p style="text-align:center; font-weight:500; padding: 8px 0;">DSCR = Hotel's Annual Income (NOI) ÷ Annual Loan Payments</p>
-<p>A DSCR of 1.0x means the hotel earns exactly enough to cover its loan payments — nothing left over. A DSCR of 1.5x means the hotel earns 50% more than it needs to — comfortable cushion. A DSCR below 1.0x means the hotel can't cover its own debt from operations, and the developer has to inject cash to fill the gap.</p>
+<p>DSCR compares a property's annual NOI to the annual debt payments it owes the bank. It's a simple ratio:</p>
+<p style="text-align:center; font-weight:500; padding: 8px 0;">DSCR = Property's Annual Income (NOI) ÷ Annual Loan Payments</p>
+<p>A DSCR of 1.0x means the property earns exactly enough to cover its loan payments — nothing left over. A DSCR of 1.5x means the property earns 50% more than it needs to — comfortable cushion. A DSCR below 1.0x means the property can't cover its own debt from operations, and the developer has to inject cash to fill the gap.</p>
 
 <div class="story-block">
   <div class="sb-label">In real numbers</div>
-  <p>A hotel has $4.2M in annual NOI. It has a $32M loan at 7.5% interest-only, which means annual loan payments of $2.4M.</p>
-  <p>DSCR = $4.2M ÷ $2.4M = 1.75x</p>
-  <p>The bank is comfortable. The hotel earns 75% more than it needs to cover the loan. Even if revenue dropped significantly, the hotel would still be able to service its debt.</p>
+  <p>A residential building has $3.2M in annual NOI. It has a $28M loan at 7.0% interest-only, meaning annual loan payments of $1.96M.</p>
+  <p>DSCR = $3.2M ÷ $1.96M = 1.63x</p>
+  <p>The bank is comfortable. The building earns 63% more than it needs to cover the loan. Even if occupancy dipped or costs rose, the property would still be able to service its debt.</p>
 </div>
 
 <div class="section-heading">Why lenders require a cushion above 1.0x</div>
-<p>Banks don't lend at 1.0x DSCR because that leaves zero margin for error. Hotels have seasonal fluctuations. Economies go through cycles. A renovation might temporarily reduce revenue. A competitor might open nearby.</p>
-<p>Most hospitality lenders require a minimum DSCR of 1.25x–1.40x — meaning the hotel must earn at least 25–40% more than its loan payments before the bank will approve the deal. That buffer is the lender's protection against the unpredictability of hotel operations.</p>
+<p>Banks don't lend at 1.0x DSCR because that leaves zero margin for error. Income-producing properties have vacancies, maintenance surprises, and economic cycles. A renovation might temporarily reduce revenue. A new competing building might open nearby.</p>
+<p>Most real estate lenders require a minimum DSCR of 1.20x–1.35x — meaning the property must earn at least 20–35% more than its loan payments before the bank will approve the deal. That buffer is the lender's protection against the unpredictability of real estate income.</p>
 
 <div class="section-heading">What happens when DSCR falls below the threshold</div>
-<p>Most loan agreements have DSCR covenants — minimum ratios that must be maintained. If the hotel's performance deteriorates and DSCR drops below the covenant level, the bank can take action: sweeping cash flow into a reserve account (a "cash trap"), requiring the borrower to pay down the loan, or in severe cases, triggering default proceedings.</p>
-<p>This is why hotel operators watch performance metrics so closely. A soft quarter isn't just an operational issue — it might be a covenant issue.</p>
+<p>Most loan agreements have DSCR covenants — minimum ratios that must be maintained. If the property's performance deteriorates and DSCR drops below the covenant level, the bank can take action: sweeping cash flow into a reserve account (a "cash trap"), requiring the borrower to pay down the loan, or in severe cases, triggering default proceedings.</p>
+<p>This is why operators and owners watch performance metrics so closely. A soft quarter isn't just an operational issue — it might be a covenant issue.</p>
 
 <div class="highlight-box">
-  <p><strong>DSCR in plain terms:</strong> It answers "can the hotel afford its mortgage?" A healthy DSCR gives the lender confidence. A deteriorating DSCR triggers anxiety — and eventually, consequences.</p>
+  <p><strong>DSCR in plain terms:</strong> It answers "can this property afford its mortgage?" A healthy DSCR gives the lender confidence. A deteriorating DSCR triggers anxiety — and eventually, consequences.</p>
 </div>
 
-<div class="section-heading">What this means for your work</div>
-<p>When a lender says they're "comfortable with the DSCR" on a deal, they mean the hotel's projected income gives them sufficient cushion above what's needed to repay the loan. When a deal "can't get financing" despite having a great brand and strong design, it often comes down to the numbers not supporting a high enough DSCR.</p>
-<p>Understanding DSCR helps you understand why certain deals get funded and others don't — and why lenders sometimes seem indifferent to the parts of a project that feel most exciting (design, brand, concept) relative to the parts that feel most boring (projected revenue per room).</p>
+<div class="section-heading">How this shows up in your work</div>
+<p>When a lender says they're "comfortable with the DSCR" on a deal, they mean the property's projected income gives them sufficient cushion above what's needed to repay the loan. When a deal "can't get financing" despite having a great design or brand, it often comes down to the numbers not supporting a high enough DSCR.</p>
+<p>Understanding DSCR helps you understand why certain deals get funded and others don't — and why lenders sometimes seem indifferent to the parts of a project that feel most exciting (design, concept, brand) relative to the parts that feel most boring (projected revenue per unit).</p>
 
 <div class="amber-box">
   <div class="ab-label">Terms worth knowing</div>
-  <p><strong>DSCR:</strong> Debt Service Coverage Ratio — NOI divided by annual loan payments. Must typically exceed 1.25x for most lenders to approve a hotel loan.</p>
+  <p><strong>DSCR:</strong> Debt Service Coverage Ratio — NOI divided by annual loan payments. Must typically exceed 1.20x–1.35x for most real estate lenders.</p>
   <p><strong>Debt service:</strong> The total of principal and interest payments owed on a loan in a given period.</p>
-  <p><strong>Cash trap:</strong> A lender-imposed restriction that diverts hotel revenue into a controlled account when DSCR falls below a threshold.</p>
+  <p><strong>Cash trap:</strong> A lender-imposed restriction that diverts property revenue into a controlled account when DSCR falls below a threshold.</p>
 </div>`,
     quiz: [
       { q: "A hotel has NOI of $3.6M and annual loan payments of $2.4M. What is the DSCR — and is a lender with a 1.25x minimum likely to approve this deal?", opts: ["A) DSCR of 1.25x — right at the minimum, probably approved", "B) DSCR of 1.5x — above minimum, likely approved", "C) DSCR of 0.8x — below minimum, not approved", "D) DSCR of 1.5x — above minimum, but still likely rejected"], correct: 1, exp: "DSCR = $3.6M ÷ $2.4M = 1.5x. This exceeds the 1.25x minimum, providing a 25% cushion above the threshold. Most lenders would view this favorably — there's meaningful room for NOI to decline before the covenant is breached." },
-      { q: "Why do lenders require DSCR above 1.0x rather than exactly 1.0x?", opts: ["A) It's a mathematical coincidence", "B) To provide a buffer against revenue volatility, seasonal fluctuations, and unexpected events", "C) Because 1.0x is technically impossible to achieve", "D) Regulatory requirements prohibit 1.0x DSCR loans"], correct: 1, exp: "A 1.0x DSCR means zero margin for error — any revenue shortfall means the borrower can't cover loan payments. Hotels are inherently cyclical and seasonal. The cushion above 1.0x is the lender's protection against real-world variability." },
-      { q: "A hotel's DSCR drops from 1.45x to 1.08x during a difficult year. The loan covenant requires 1.20x minimum. What is the likely consequence?", opts: ["A) Nothing — the lender will wait and see", "B) The hotel automatically closes", "C) The lender may trigger a cash trap or require a loan paydown", "D) Interest rates on the loan increase automatically"], correct: 2, exp: "When DSCR breaches a covenant, lenders have contractual remedies. A cash trap diverts revenue into a lender-controlled account. The lender might also require a principal paydown to reduce debt service obligations. These consequences motivate borrowers to maintain strong operational performance." },
+      { q: "Why do lenders require DSCR above 1.0x rather than exactly 1.0x?", opts: ["A) It's a mathematical coincidence", "B) To provide a buffer against revenue volatility, seasonal fluctuations, and unexpected events", "C) Because 1.0x is technically impossible to achieve", "D) Regulatory requirements prohibit 1.0x DSCR loans"], correct: 1, exp: "A 1.0x DSCR means zero margin for error — any revenue shortfall means the borrower can't cover loan payments. Income-producing properties are inherently cyclical and seasonal. The cushion above 1.0x is the lender's protection against real-world variability." },
+      { q: "A property's DSCR drops from 1.45x to 1.08x during a difficult year. The loan covenant requires 1.20x minimum. What is the likely consequence?", opts: ["A) Nothing — the lender will wait and see", "B) The property automatically closes", "C) The lender may trigger a cash trap or require a loan paydown", "D) Interest rates on the loan increase automatically"], correct: 2, exp: "When DSCR breaches a covenant, lenders have contractual remedies. A cash trap diverts revenue into a lender-controlled account. The lender might also require a principal paydown to reduce debt service obligations. These consequences motivate borrowers to maintain strong operational performance." },
       { q: "A lender tells a developer that the deal 'doesn't support the requested loan amount.' The hotel design is beautiful and the brand is prestigious. What is the lender most likely saying?", opts: ["A) They don't like the architectural style", "B) The projected NOI doesn't support a high enough DSCR at the requested loan size", "C) The brand isn't well-known enough", "D) The location is undesirable"], correct: 1, exp: "Lenders size loans based on income coverage, not aesthetics or brand prestige. If the projected NOI can't support the required DSCR at a given loan amount, the lender will reduce the loan — regardless of how impressive the hotel looks. This is why financial underwriting and creative vision sometimes feel at odds." }
     ]
   },
@@ -680,21 +689,21 @@ const LESSONS = [
     title: "How Do You Know If a Development Deal Actually Makes Sense?",
     read: "5 min read",
     body: `
-<p>Here's a question that sounds simple but contains a lot: how does anyone know if building a new hotel is actually a good idea financially?</p>
-<p>Not "will it be beautiful?" Not "will guests love it?" But: does the math work? Is creating this hotel from scratch worth the cost, the risk, and the years it takes to get there?</p>
+<p>Here's a question that sounds simple but contains a lot: how does anyone know if building a new development is actually a good idea financially?</p>
+<p>Not "will it be beautiful?" Not "will people love it?" But: does the math work? Is creating this project from scratch worth the cost, the risk, and the years it takes to get there?</p>
 <p>Developers and investors answer this question with a few key tests — and understanding them will help you understand why some projects move forward and others quietly disappear.</p>
 
 <div class="section-heading">The fundamental question: does it cost less to build than it's worth?</div>
-<p>The most basic test: when you're done building, is the hotel worth more than it cost to create?</p>
-<p>If you spend $80 million to build a hotel and it's worth $95 million when complete and stabilized — congratulations, you created $15 million in value. That's the development margin. That's the reward for taking the risk.</p>
-<p>If you spend $80 million to build a hotel and it's worth $75 million at stabilization — you destroyed value. You took years of risk and effort and ended up with something worth less than what you put in. That's a deal that shouldn't have been built.</p>
+<p>The most basic test: when you're done building, is the property worth more than it cost to create?</p>
+<p>If you spend $80 million to build a development and it's worth $95 million when complete and stabilised — congratulations, you created $15 million in value. That's the development margin. That's the reward for taking the risk.</p>
+<p>If you spend $80 million to build and it's worth $75 million at stabilisation — you destroyed value. You took years of risk and effort and ended up with something worth less than what you put in. That's a deal that shouldn't have been built.</p>
 
 <div class="section-heading">The yield on cost test</div>
-<p>The more precise version of this test is called <strong>yield on cost</strong>. It compares the income the hotel will generate (once stable) to the total cost of building it.</p>
-<p style="text-align:center; font-weight:500; padding: 8px 0;">Yield on Cost = Stabilized Annual Income (NOI) ÷ Total Development Cost</p>
-<p>Then you compare this yield to what buyers in the market are paying for similar hotels — expressed as a cap rate.</p>
-<p>If your yield on cost is 7% and comparable hotels are selling at a 6% cap rate — your deal makes sense. You're building something that generates more income relative to cost than the market is currently paying for. Value created.</p>
-<p>If your yield on cost is 5.5% and the market cap rate is 6.5% — your deal doesn't pencil. The market would pay less for your hotel than it cost to build.</p>
+<p>The more precise version of this test is called <strong>yield on cost</strong>. It compares the income the property will generate (once stable) to the total cost of building it.</p>
+<p style="text-align:center; font-weight:500; padding: 8px 0;">Yield on Cost = Stabilised Annual Income (NOI) ÷ Total Development Cost</p>
+<p>Then you compare this yield to what buyers in the market are paying for similar stabilised properties — expressed as a cap rate.</p>
+<p>If your yield on cost is 7% and comparable properties are selling at a 6% cap rate — your deal makes sense. You're building something that generates more income relative to cost than the market currently pays for. Value created.</p>
+<p>If your yield on cost is 5.5% and the market cap rate is 6.5% — your deal doesn't pencil. The market would pay less for your finished asset than it cost to build.</p>
 
 <div class="story-block">
   <div class="sb-label">The development spread</div>
@@ -705,7 +714,7 @@ const LESSONS = [
 <p>When someone in a meeting says a deal "doesn't pencil" — this is usually what they mean. Either the construction costs are too high relative to what the hotel will be worth, or the projected income isn't strong enough to justify the cost, or cap rates in the market have moved against the deal.</p>
 <p>Rising construction costs and rising cap rates are the two most common deal-killers in current market conditions. Construction inflation increases the denominator (total cost). Rising cap rates reduce the value of the income being produced. Both work against the developer simultaneously.</p>
 
-<div class="section-heading">What this means for your work</div>
+<div class="section-heading">How this shows up in your work</div>
 <p>When a development project that seemed promising suddenly "goes quiet" — often, this is what happened. The numbers stopped working. Construction costs came in higher than expected, or the market moved, or the projected income wasn't supportable enough to justify moving forward.</p>
 <p>Understanding deal economics helps you write about projects with more credibility — and it gives you better instincts for why certain developments succeed and others stall.</p>
 
@@ -942,5 +951,6 @@ function retakeQuiz() {
 
 init();
 </script>
+
 </body>
 </html>
